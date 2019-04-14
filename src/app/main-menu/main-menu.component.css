@@ -1,0 +1,27 @@
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  background: #AFBfCF;
+}
+
+.box .row.header {
+  flex: 0 1 auto;
+}
+
+.box .height_filler {
+  flex: 1 1 auto;
+}
+
+.box .footer {
+  flex: 0 1 75px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.box .bottom {
+  margin-bottom: 5rem;
+}

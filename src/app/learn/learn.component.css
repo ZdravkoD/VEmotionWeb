@@ -1,0 +1,10 @@
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+video {
+  flex: 1 1 auto;
+  object-fit:fill;
+}

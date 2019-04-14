@@ -1,0 +1,21 @@
+<div class="mat-app-background basic-container mat-dialog-content scrollbar" id="styled-scrollbar">
+    <mat-grid-list cols="2" rowHeight="1:1" gutterSize="1rem">
+
+        <mat-grid-tile *ngFor="let thumbnail of thumbnails">
+            <mat-grid-tile-header>Header</mat-grid-tile-header>
+          <img style="cursor:pointer" src="{{thumbnail}}" (click)="selectVideo($event.target.src)" />
+        </mat-grid-tile>
+
+      <mat-grid-tile >1</mat-grid-tile>
+      <mat-grid-tile>2</mat-grid-tile>
+      <mat-grid-tile>3</mat-grid-tile>
+      <mat-grid-tile>4</mat-grid-tile>
+      <mat-grid-tile>5</mat-grid-tile>
+      <mat-grid-tile>6</mat-grid-tile>
+      <mat-grid-tile>7</mat-grid-tile>
+      <mat-grid-tile>8</mat-grid-tile>
+      <mat-grid-tile>9</mat-grid-tile>
+      <mat-grid-tile>10</mat-grid-tile>
+    </mat-grid-list>
+
+</div>
